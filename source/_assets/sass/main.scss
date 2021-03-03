@@ -4,6 +4,12 @@
 @import "~highlight.js/scss/a11y-dark";
 @import "~notyf/notyf.min";
 
+#headerText {
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+}
+
 section h1:first-child {
     margin-top: 18px;
 }

@@ -4,7 +4,7 @@ return [
     'production' => false,
     'baseUrl' => 'https://artisanstatic.netlify.app',
     'site' => [
-        'title' => 'My Jigsaw Blog',
+        'title' => 'vtapi.co',
         'description' => 'Personal blog of John Doe.',
         'image' => 'default-share.png',
     ],

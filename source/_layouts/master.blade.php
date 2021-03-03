@@ -15,12 +15,14 @@
     @include('_partials.cms.identity_widget')
 
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <section>
         <header>
             <nav>
-                <strong>{{ $page->site->title }}</strong><br>
+                <strong id="headerText">{{ $page->site->title }}</strong><br>
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/posts">Posts</a></li>
